@@ -1,0 +1,33 @@
+<div id="container-a">
+  <div>
+    <label class="grey">Nombre</label>
+    [text* name]
+    <label class="grey">Teléfono</label>
+    [text* phone]
+  </div>
+    
+  <div>
+    <label class="grey">Apellido</label>
+    [text* lastname]
+    <label class="grey">Correo electrónico</label>
+    [text* email]
+  </div>
+</div>
+
+<div id="container-b">
+  <label class="grey">Soporte</label>
+  [select support "1" "2" "3"]
+  <label class="grey">Sitio</label>
+  [select site "1" "2" "3"]
+  <label class="grey">Categoría</label>
+  [select category "1" "2" "3"]
+  <label class="grey">Nombre del cartel</label>
+  [text* sign-name]
+  <label class="grey">Descripción de la falla</label>
+  [textarea error-description]
+  <label class="grey">Cargar imágenes</label>
+  [file file limit:10000]
+</div>
+<div id="container-c">
+  [submit "ENVIAR"]
+</div>
