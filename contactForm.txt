@@ -1,0 +1,27 @@
+<div id="contact-container-a">
+  <div>
+    <label class="grey">Nombre</label>
+    [text* name]
+    <label class="grey">Teléfono</label>
+    [text* phone]
+    <label class="grey">Empresa</label>
+    [text* company]
+  </div>
+    
+  <div>
+    <label class="grey">Apellido</label>
+    [text* lastname]
+    <label class="grey">Correo electrónico</label>
+    [email* email]
+    <label class="grey">Rubro</label>
+    [text* sector]
+  </div>
+</div>
+
+<div id="contact-container-b">
+  <label class="grey">Mensaje</label>
+  [textarea message]
+</div>
+<div id="contact-container-c">
+  [submit "ENVIAR"]
+</div>

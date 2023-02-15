@@ -1,0 +1,50 @@
+#contact-container-a {
+	display: flex;
+	padding: 0 15px;
+}
+
+#contact-container-a > div > p > span > input, #contact-container-b > p > span > input {
+	width: 100%;
+	height: 30px;
+}
+
+#contact-container-b > p > span > textarea {
+	width: 100%;
+	height: 60px;
+}
+
+#contact-container-a > div:nth-child(1) {
+	margin-right: 5%;
+}
+
+#contact-container-a > div:nth-child(2) {
+	margin-left: 5%;
+}
+
+#contact-container-b, #contact-container-c {
+	padding: 0 15px;
+}
+
+#contact-container-c {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#contact-container-c > p > input {
+	float: right;
+    padding: 8px 20px;
+	margin-top: 10px;
+    border-radius: 17px;
+    background: linear-gradient(90deg, #f1753d, #d31578);
+    color: #fff;
+    border: none;
+}
+
+#contact-container-a > div > p > br, #contact-container-b > p > br {
+	display: none;
+}
+
+#wpcf7-f24-p13-o2 {
+	border: 1px solid grey;
+    padding: 3% 10%;
+}

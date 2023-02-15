@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#container-a {
+	display: flex;
+/* 	border: 2px solid black; */
+	padding: 0 15px;
+}
+
+#container-a > div > p > span > input, #container-b > p > span > input, #container-b > p > span > select {
+	width: 100%;
+	height: 30px;
+}
+
+#container-b > p > span > textarea {
+	width: 100%;
+	height: 60px;
+}
+
+#container-a > div:nth-child(1) {
+	margin-right: 5%;
+}
+
+#container-a > div:nth-child(2) {
+	margin-left: 5%;
+}
+
+#container-b, #container-c {
+/* 	border: 2px solid red; */
+	padding: 0 15px;
+}
+
+#container-c {
+/* 		border: 2px solid red; */
+	display: flex;
+	justify-content: flex-end;
+}
+
+#container-c > p > input {
+	float: right;
+    padding: 8px 20px;
+    border-radius: 17px;
+    background: linear-gradient(90deg, #f1753d, #d31578);
+    color: #fff;
+    border: none;
+}
+
+#container-b > p {
+	display: flex;
+	flex-direction: column;
+
+}
+
+#container-a > div > p > br, #container-b > p > br {
+	display: none;
+}
+
+.grey {
+	color: #555b5e;
+}
+
+#wpcf7-f5-p13-o1 {
+    border: 1px solid grey;
+    padding: 3% 10%;
+}
