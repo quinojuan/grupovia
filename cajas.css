@@ -1,0 +1,35 @@
+.contenedoresNegros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedoresNegros > div:nth-child(1), .contenedoresNegros > div:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.black-one, .black-two, .black-three {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+
+
+.black-one > img {
+    width: 52px;
+    height: auto;
+}
+
+.black-two > img, .black-three > img {
+    width: 38px;
+    height: auto;
+}
+
+.contenedoresNegros > div > p {
+    color: white;
+    display: inline-block;
+    font-size: 16pt;
+    width: 50%;
+}
