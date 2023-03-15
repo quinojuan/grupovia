@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorBeneficios > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedorBeneficios > div > figure {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+    padding: 15px;
+}
+
+.contenedorBeneficios > div > figure > img {
+    /* object-fit: cover; */
+    margin: 0 auto 20px;
+}
+
+.contenedorBeneficios > div > figure > figcaption {
+    margin: 0 auto;
+    text-align: center;
+}
+
