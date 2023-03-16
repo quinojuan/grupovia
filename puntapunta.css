@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linea {
+    display: inline-block;
+}
+.contenedorPuntaPunta {
+    background-color: #131a22;
+}
+
+.contenedorPuntaPunta > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.contenedorPuntaPunta > div > figure {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+    padding: 15px;    
+}
+
+.contenedorPuntaPunta > div > figure > img {
+    /* object-fit: cover; */
+    margin: 0 auto 10px;
+}
+
+.contenedorPuntaPunta > div > figure > figcaption {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.descripciones {
+    display: flex;
+    align-items: center;
+
+}
+
+.descripciones p {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
