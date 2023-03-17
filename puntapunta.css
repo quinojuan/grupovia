@@ -3,14 +3,13 @@
     src: url("./fonts/Gotham-Medium.otf");
 }
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.contenedor {
+.contenedorPunta {
     background-color: #131a22;
     display: flex;
     padding: 0 10% 0;
@@ -22,31 +21,31 @@ figcaption {
     margin-bottom: 15%;
 }
 
-.col2 {
+.contenedorPunta > .col2 {
     display: flex;
     flex-direction: column;
     /*justify-content: space-around;*/
 }
 
-.col1 > figure, .col3 > figure {
+.contenedorPunta > .col1 > figure, .contenedorPunta > .col3 > figure {
     padding: 15px 0;
 }
 
-.col2 > figure > .one {
+.contenedorPunta > .col2 > figure > .one {
     padding-top: 41px;
 }
-.col2 > figure > .two {
+.contenedorPunta > .col2 > figure > .two {
     padding-top: 95px;
 }
-.col2 > figure > .three {
-    padding-top: 958px;
+.contenedorPunta > .col2 > figure > .three {
+    padding-top: 98px;
 }
 
-.col2 > figure > img {
+.contenedorPunta > .col2 > figure > img {
     margin: 0 auto;
 }
 
-.col1, .col3 {
+.contenedorPunta > .col1, .contenedorPunta > .col3 {
     display: flex;
     flex-direction: column;
     align-items: center;
