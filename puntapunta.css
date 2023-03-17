@@ -1,50 +1,54 @@
+@font-face {
+    font-family: "got";
+    src: url("./fonts/Gotham-Medium.otf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.linea {
-    display: inline-block;
-}
-.contenedorPuntaPunta {
+.contenedor {
     background-color: #131a22;
-}
-
-.contenedorPuntaPunta > div {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-
+    padding: 0 10% 0;
 }
 
-.contenedorPuntaPunta > div > figure {
+figcaption {
+    color: white;
+    font-family: "got";
+    margin-bottom: 15%;
+}
+
+.col2 {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 10px);
-    padding: 15px;    
+    /*justify-content: space-around;*/
 }
 
-.contenedorPuntaPunta > div > figure > img {
-    /* object-fit: cover; */
-    margin: 0 auto 10px;
+.col1 > figure, .col3 > figure {
+    padding: 15px 0;
 }
 
-.contenedorPuntaPunta > div > figure > figcaption {
+.col2 > figure > .one {
+    padding-top: 41px;
+}
+.col2 > figure > .two {
+    padding-top: 95px;
+}
+.col2 > figure > .three {
+    padding-top: 958px;
+}
+
+.col2 > figure > img {
     margin: 0 auto;
-    text-align: center;
 }
 
-.descripciones {
+.col1, .col3 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-
-}
-
-.descripciones p {
-    width: 50%;
-    text-align: center;
-    color: white;
+    width: 30%;
 }
