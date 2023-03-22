@@ -1,0 +1,18 @@
+.galeriaMarcas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .imagenMarcas {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    border: 2px solid #c5c5c5;
+  }
+  
+  .imagenMarcas img {
+    width: 100%;
+    height: auto;
+  }
+  
